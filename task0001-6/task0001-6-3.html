@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+    body {
+        color: white;
+    }
+
+    /* 2 colums No.1 */
+    .left {
+        width: 80px;
+        height: 50px;
+        background-color: red;
+        float: left;
+    }
+
+    .right {
+        height: 50px;
+        background-color: blue;
+        margin-left: 80px;
+    }
+
+    /* 2 colums No.2 */
+    .border {
+        display: flex;
+        height: 50px;
+    }
+
+    .left2 {
+        width: 80px;
+        background-color: red;
+        display: inline-block;
+    }
+
+    .right2 {
+        background-color: blue;
+        display: inline-block;
+        flex: 1;
+    }
+</style>
+
+<body>
+    <div class="left">DIV-A</div>
+    <div class="right">DIV-B</div>
+
+    <br>
+    <br>
+
+    <div class="border">
+        <div class="left2">DIV-A</div>
+        <div class="right2">DIV-B</div>
+    </div>
+</body>
+
+</html>
