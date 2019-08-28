@@ -4,172 +4,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>index</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<style>
-    .navbar {
-        width: 100%;
-        height: 80px;
-        background-color: darkorchid;
-        position: relative;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .row {
-        width: 980px;
-        position: absolute;
-        bottom: 0;
-        padding-bottom: 5px;
-    }
-
-    .row a {
-        color: white;
-        /* font-size: 14px;
-        font-family: "SimSun"; */
-        font: 14px "SimSun";
-        margin-left: 28px;
-        text-decoration: none;
-    }
-
-    .mainLink {
-        /* 这样写也可以 */
-        /* display: inline-block;
-        position: absolute;
-        right: 0; */
-        position: absolute;
-        bottom: 5px;
-        right: 0;
-    }
-
-    .githublogo {
-        position: absolute;
-        right: 10px;
-        bottom: 0;
-    }
-
-    .banner-bg {
-        width: 100%;
-    }
-
-    .part2 {
-        width: 100%;
-        background-color: rgb(230, 227, 227);
-        border: none;
-        margin-top: -4px;
-    }
-
-    .greyblock {
-        width: 980px;
-        /* height: 800px; */
-        /* margin-top: -4px; */
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-    }
-
-    .middleblock {
-        width: 320px;
-        background-color: #fff;
-        flex: 1;
-        margin-left: 10px;
-        margin-top: 10px;
-        padding: 10px 10px 0 10px;
-
-    }
-
-    .middleblock img {
-        width: 300px;
-        height: 180px;
-        position: relative;
-    }
-
-    .middleblock .word {
-        font-size: 12px;
-        line-height: 170%;
-        text-indent: 24px;
-        margin-top: -4px;
-        padding: 15px 20px 25px 20px;
-        border: none;
-    }
-
-    .whiteblock {
-        width: 100%;
-        background-color: #fff;
-        position: relative;
-        margin-top: 100px;
-        padding-bottom: 100px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .figimg {
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        position: absolute;
-        margin-top: -50px;
-    }
-
-    .intro {
-        position: relative;
-        margin-top: 160px;
-        width: 600px;
-    }
-
-    .title {
-        color: black;
-        font: 20px "Century Gothic";
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .self-intro {
-        width: 600px;
-        color: black;
-        font-size: 14px;
-        margin-top: 50px;
-        text-indent: 28px;
-    }
-
-    .blackblock {
-        width: 100%;
-        background-color: black;
-        color: white;
-        font: 14px "SimSun";
-    }
-
-    .blackblock a {
-        color: white;
-        font: 14px "SimSun";
-        text-decoration: none;
-    }
-
-    .bottom-nav {
-        height: 40px;
-        text-align: center;
-        border-bottom: 1px solid grey;
-        position: relative;
-    }
-
-    .bottom-nav a {
-        margin: 0 14px;
-        line-height: 40px;
-    }
-
-    .bottomLink span {
-        color: aliceblue;
-        font: 14px "SimSun";
-    }
-</style>
 
 <body>
     <div class="container">
         <div class="navbar">
             <div id="nav" class="row">
-                <img src="" alt="mylogo">
+                <img src="img/mylogo.png" alt="mylogo">
                 <div class="mainLink">
                     <a href="index.html">首页</a>
                     <a href="blog.html">文章</a>
@@ -181,10 +24,17 @@
                 <img src="img/icon-github.png" alt="githublogo" class="githublogo">
             </a>
         </div>
-        <!-- <div>
-            <img src="img/banner-bg.jpg" alt="banner-bg" class="banner-bg">
-        </div> -->
-        <img src="img/banner-bg.jpg" alt="banner-bg" class="banner-bg">
+        <div class="mdl-bg">
+            <div class="word-over-bg">
+                <div>
+                    <div class="title2">标题</div>
+                    <div class="zhengwen">
+                        这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文。
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="part2">
             <div class="greyblock">
                 <div class="middleblock">
@@ -214,64 +64,73 @@
 
             <div class="blackblock">
                 <div class="bottom-nav">
-                    <a href="index.html">首页</a>
+                    <a href="index.html">主页</a>
                     <a href="blog.html">文章</a>
                     <a href="gallery.html">作品</a>
                     <a href="about.html">关于</a>
                 </div>
+                <div style="width: 100%;border-top:1px solid grey;  "></div>
                 <div class="bottomLink">
-                    <div>
+                    <div class="colum">
                         <span>学习资料</span>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
+                        <div>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                        </div>
                     </div>
-                    <div>
+                    <div class="colum">
                         <span>友情链接</span>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
+                        <div>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                        </div>
                     </div>
-                    <div>
+                    <div class="colum">
                         <span>学习资料</span>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
+                        <div>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                        </div>
                     </div>
-                    <div>
+                    <div class="colum">
                         <span>友情链接</span>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
+                        <div>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                        </div>
                     </div>
-                    <div>
+                    <div class="colum">
                         <span>学习资料</span>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
-                        <a href="">LINK</a>
+                        <div>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                            <a href="">LINK</a>
+                        </div>
                     </div>
                 </div>
-
-                <div>版权信息</div>
                 <div class="bottomLogo">
-                    <img src="img/icon-github.png" alt="githublogo">
+                    <div>版权信息</div>
+                    <img src="img/icon-github.png" alt="githublogo" class="githublogo2">
                 </div>
 
             </div>
         </div>
 
     </div>
-
 </body>
 
 </html>
