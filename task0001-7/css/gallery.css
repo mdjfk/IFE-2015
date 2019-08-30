@@ -1,3 +1,11 @@
+body {
+    font: 12px "SimSun";
+}
+
+.container {
+    background-color: rgb(230, 227, 227);
+}
+
 /*------------------------ navbar -------------------------*/
 .navbar {
     width: 100%;
@@ -109,3 +117,192 @@ div.colum div {
 
 
 /*------------------------ specific style -------------------------*/
+.content {
+    width: 980px;
+    margin: 70px auto 10px auto;
+    position: relative;
+}
+
+.left-top {
+    width: 670px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    /* position: relative; */
+}
+
+.middleblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.middleblock img {
+    width: 160px;
+}
+
+.bg-purple {
+    background-color: rgb(148, 67, 196);
+}
+
+.bg-blue {
+    background-color: rgb(83, 74, 209);
+}
+
+.bg-brown {
+    background-color: rgb(149, 28, 28);
+}
+
+.gword {
+    display: flex;
+    /*align-items: flex-start;
+    justify-content: flex-start; */
+    padding: 10px;
+    width: 140px;
+}
+
+.circle {
+    border: 1px solid #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+    flex: none;
+}
+
+.gtitle {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.gzhengwen {
+    line-height: 150%;
+}
+
+.toptags {
+    position: absolute;
+    top: -41px;
+    left: 0;
+}
+
+.toptags a {
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #fff;
+    border-right: 1px solid rgb(233, 233, 233);
+    border-bottom: 1px solid rgb(233, 233, 233);
+    border-top: 4px solid darkorchid;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    padding: 8px 15px;
+}
+
+.toptags a:hover {
+    border-top: 4px solid rgb(219, 174, 241);
+    border-bottom: 1px solid transparent;
+}
+
+.load {
+    background-color: #fff;
+    /* height: 30px; */
+    width: 710px;
+    color: grey;
+    font-size: 14px;
+    padding: 12px 0;
+    margin-bottom: 80px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebar {
+    width: 260px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.search2 {
+    background-color: rgb(211, 211, 211);
+    width: 220px;
+    height: 40px;
+    position: relative;
+}
+
+.search2 input {
+    width: 115px;
+    height: 34px;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding-left: 37px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.search2 img {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 3px;
+    top: 5px;
+}
+
+.search2 button {
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    width: 65px;
+    height: 40px;
+    right: 0;
+    top: 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.rank {
+    background-color: #fff;
+
+}
+
+.circle2 {
+    width: 18px;
+    height: 18px;
+    color: white;
+    background-color: darkorchid;
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.p-bar {
+    width: 60px;
+    height: 25px;
+    border: 1px solid darkorchid;
+}
+
+.full {
+    background-color: darkorchid;
+    float: left;
+    height: 25px;
+
+}

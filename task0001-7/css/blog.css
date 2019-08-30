@@ -225,10 +225,7 @@ div.colum div {
 
 .search {
     background-color: #fff;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
 }
 
 .search2 {
@@ -236,7 +233,6 @@ div.colum div {
     width: 220px;
     height: 40px;
     position: relative;
-    align-self: center;
 }
 
 .search2 input {
