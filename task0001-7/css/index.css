@@ -1,44 +1,3 @@
-.navbar {
-    width: 100%;
-    height: 80px;
-    background-color: rgb(93, 29, 91);
-    position: relative;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row {
-    width: 980px;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 5px;
-}
-
-.row a {
-    color: white;
-    font: 14px "SimSun";
-    margin-left: 28px;
-    text-decoration: none;
-}
-
-.mainLink {
-    /* 这样写也可以 */
-    /* display: inline-block;
-        position: absolute;
-        right: 0; */
-    position: absolute;
-    bottom: 5px;
-    right: 0;
-}
-
-.githublogo {
-    position: absolute;
-    right: 10px;
-    bottom: 0;
-}
-
 .mdl-bg {
     display: flex;
     align-items: center;
@@ -47,7 +6,6 @@
     width: 100%;
     height: 868px;
     position: relative;
-
 }
 
 .banner-bg {
@@ -161,70 +119,4 @@
     margin-top: 50px;
     text-indent: 28px;
     line-height: 180%;
-}
-
-.blackblock {
-    width: 100%;
-    background-color: black;
-    color: white;
-    font: 14px "SimSun";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.blackblock a {
-    color: white;
-    font: 14px "SimSun";
-    text-decoration: none;
-}
-
-.bottom-nav {
-    height: 40px;
-}
-
-.bottom-nav a {
-    margin: 0 14px;
-    line-height: 40px;
-}
-
-.bottomLink {
-    width: 980px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-div.colum {
-    width: 20%;
-    float: left;
-}
-
-div.colum div {
-    margin-top: 25px;
-}
-
-.bottomLink span {
-    color: rgb(195, 202, 209);
-    font: 14px "SimSun";
-}
-
-.bottomLink a {
-    display: block;
-    padding-bottom: 7px;
-}
-
-.bottomLink a:hover {
-    text-decoration: underline;
-}
-
-.bottomLogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.githublogo2 {
-    margin-top: 20px;
 }

@@ -1,121 +1,3 @@
-body {
-    font: 12px "SimSun";
-}
-
-.container {
-    background-color: rgb(230, 227, 227);
-}
-
-/*------------------------ navbar -------------------------*/
-.navbar {
-    width: 100%;
-    height: 80px;
-    background-color: rgb(93, 29, 91);
-    position: relative;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row {
-    width: 980px;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 5px;
-}
-
-.row a {
-    color: white;
-    font: 14px "SimSun";
-    margin-left: 28px;
-    text-decoration: none;
-}
-
-.mainLink {
-    /* 这样写也可以 */
-    /* display: inline-block;
-        position: absolute;
-        right: 0; */
-    position: absolute;
-    bottom: 5px;
-    right: 0;
-}
-
-.githublogo {
-    position: absolute;
-    right: 10px;
-    bottom: 0;
-}
-
-/*------------------------ footer -------------------------*/
-.blackblock {
-    width: 100%;
-    background-color: black;
-    color: white;
-    font: 14px "SimSun";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.blackblock a {
-    color: white;
-    font: 14px "SimSun";
-    text-decoration: none;
-}
-
-.bottom-nav {
-    height: 40px;
-}
-
-.bottom-nav a {
-    margin: 0 14px;
-    line-height: 40px;
-}
-
-.bottomLink {
-    width: 980px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-div.colum {
-    width: 20%;
-    float: left;
-}
-
-div.colum div {
-    margin-top: 25px;
-}
-
-.bottomLink span {
-    color: rgb(195, 202, 209);
-    font: 14px "SimSun";
-}
-
-.bottomLink a {
-    display: block;
-    padding-bottom: 7px;
-}
-
-.bottomLink a:hover {
-    text-decoration: underline;
-}
-
-.bottomLogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.githublogo2 {
-    margin-top: 20px;
-}
-
-
 /*------------------------ specific style -------------------------*/
 .content {
     width: 980px;
@@ -233,6 +115,10 @@ div.colum div {
     top: 0;
 }
 
+.sidebar>div {
+    margin-bottom: 10px;
+}
+
 .search {
     background-color: #fff;
     padding: 20px;
@@ -279,7 +165,21 @@ div.colum div {
 
 .rank {
     background-color: #fff;
+    padding: 15px 10px 50px 14px;
+}
 
+.ranktitle {
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: rgb(129, 125, 125);
+}
+
+.rankk {
+    margin-top: 12px;
+}
+
+.rankk div {
+    float: left;
 }
 
 .circle2 {
@@ -295,14 +195,16 @@ div.colum div {
 }
 
 .p-bar {
-    width: 60px;
-    height: 25px;
+    width: 140px;
+    height: 15px;
     border: 1px solid darkorchid;
+    margin-right: 10px;
+
 }
 
 .full {
     background-color: darkorchid;
     float: left;
-    height: 25px;
+    height: 15px;
 
 }
